@@ -1,3 +1,8 @@
-target
+target/
 tomcat.5000/
 tomcat.8080/
+.idea/kotlinc.xml
+.idea/libraries/
+.idea/vcs.xml
+lib/
+out/
