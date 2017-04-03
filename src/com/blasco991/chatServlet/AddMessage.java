@@ -21,7 +21,7 @@ public class AddMessage extends HttpServlet {
 	@Override
 	public void init() throws ServletException {
 		ServletContext context = getServletContext();
-		context.setAttribute("listMessage", Collections.synchronizedList(new ArrayList<MyEntry<String, String>>()));
+		context.setAttribute("listMessage", Collections.synchronizedList(new ArrayList<com.blasco991.chatServlet.MyEntry<String, String>>()));
 	}
 
 	/**

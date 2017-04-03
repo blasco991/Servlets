@@ -1,6 +1,18 @@
 <component name="ArtifactManager">
   <artifact type="war" name="servlets">
-    <output-path>$PROJECT_DIR$/artifacts/</output-path>
-    <root id="archive" name="servlets.war" />
+    <output-path>$PROJECT_DIR$/out/artifacts/servlets</output-path>
+    <root id="archive" name="servlets.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Servlets" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="Java EE 6-Java EE 6" module-name="Servlets" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
   </artifact>
 </component>
