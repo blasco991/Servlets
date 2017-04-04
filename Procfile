@@ -1,0 +1,1 @@
+java $JAVA_OPTS -jar webapp-runner.jar ${WEBAPP_RUNNER_OPTS} --port 19062 ./out/artifacts/servlets/servlets.war

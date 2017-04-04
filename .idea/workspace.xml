@@ -7,23 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da48d47e-fa52-41f6-842b-18456f54ccb1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/blasco991/annotations/UiThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/blasco991/annotations/WorkerThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/blasco991/simpleElections/SendVotes.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/blasco991/simpleelections/MVC.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/blasco991/simpleelections/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/blasco991/simpleelections/controller/Controller.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/blasco991/simpleelections/model/Model.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/blasco991/simpleelections/view/Histogram.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/blasco991/simpleelections/view/HistogramElectionsFrame.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/blasco991/simpleelections/view/InsertPartyNameDialog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/blasco991/simpleelections/view/NumericElectionsFrame.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/blasco991/simpleelections/view/View.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/servlets.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/servlets.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Procfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servlets.iml" afterPath="$PROJECT_DIR$/Servlets.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/blasco991/Index.java" afterPath="$PROJECT_DIR$/src/com/blasco991/Index.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/blasco991/helloWorld/HelloWorld.java" afterPath="$PROJECT_DIR$/src/com/blasco991/helloWorld/HelloWorld.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,23 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HelloWorld.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/blasco991/helloWorld/HelloWorld.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Index.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/blasco991/Index.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="49" lean-forward="false" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="49" />
+            <state relative-caret-position="255">
+              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,14 +36,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SendVotes.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SendVotes.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/blasco991/simpleElections/SendVotes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="111" lean-forward="false" selection-start-line="0" selection-start-column="111" selection-end-line="0" selection-end-column="111" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -128,9 +111,7 @@
         <option value="$PROJECT_DIR$/src/com/blasco991/primeGenerator/NextPrime.java" />
         <option value="$PROJECT_DIR$/src/com/blasco991/primeGenerator/NextPrimes.java" />
         <option value="$PROJECT_DIR$/Profile" />
-        <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/src/com/blasco991/model/Model.java" />
-        <option value="$PROJECT_DIR$/src/com/blasco991/Index.java" />
         <option value="$PROJECT_DIR$/src/com/blasco991/simpleelections/view/Histogram.java" />
         <option value="$PROJECT_DIR$/src/com/blasco991/simpleelections/view/InsertPartyNameDialog.java" />
         <option value="$PROJECT_DIR$/src/com/blasco991/annotations/WorkerThread.java" />
@@ -143,7 +124,9 @@
         <option value="$PROJECT_DIR$/src/com/blasco991/simpleelections/view/NumericElectionsFrame.java" />
         <option value="$PROJECT_DIR$/src/com/blasco991/simpleelections/Main.java" />
         <option value="$PROJECT_DIR$/src/com/blasco991/helloWorld/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/src/com/blasco991/Index.java" />
         <option value="$PROJECT_DIR$/src/com/blasco991/simpleElections/SendVotes.java" />
+        <option value="$PROJECT_DIR$/Procfile" />
       </list>
     </option>
   </component>
@@ -783,7 +766,7 @@
       <option name="presentableId" value="Default" />
       <updated>1490312583254</updated>
       <workItem from="1490312584746" duration="1900000" />
-      <workItem from="1491249547724" duration="13591000" />
+      <workItem from="1491249547724" duration="15137000" />
     </task>
     <task id="LOCAL-00001" summary="Deploy">
       <created>1490312628252</created>
@@ -967,11 +950,25 @@
       <option name="project" value="LOCAL" />
       <updated>1491316617624</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Adding election serlvets">
+      <created>1491323240717</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1491323240717</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Deploy">
+      <created>1491334233362</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1491334233362</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15491000" />
+    <option name="totallyTimeSpent" value="17037000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1040,9 +1037,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Index" />
-    <MESSAGE value="Deploy" />
     <MESSAGE value="Adding election serlvets" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding election serlvets" />
+    <MESSAGE value="Deploy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deploy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1275,14 +1272,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/blasco991/model/Model.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1410,31 +1399,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/blasco991/helloWorld/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/javax.servlet.jar!/javax/servlet/ServletResponse.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/blasco991/Index.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="49" lean-forward="false" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1446,13 +1415,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/blasco991/simpleElections/SendVotes.java">
+    <entry file="file://$PROJECT_DIR$/src/com/blasco991/helloWorld/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/blasco991/Index.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/blasco991/simpleElections/SendVotes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="111" lean-forward="false" selection-start-line="0" selection-start-column="111" selection-end-line="0" selection-end-column="111" />
+          <folding />
         </state>
       </provider>
     </entry>
