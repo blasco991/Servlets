@@ -15,7 +15,7 @@ import java.util.Formatter;
  * Created by blasco991 on 04/04/17.
  */
 
-@WebServlet("/")
+@WebServlet("")
 public class Index extends HttpServlet {
 
     private final Formatter formatter = new Formatter();

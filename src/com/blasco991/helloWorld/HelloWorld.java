@@ -14,13 +14,10 @@ public class HelloWorld extends HttpServlet {
     private static final String message = "Hello World";
 
     @Override
-    public void doGet(HttpServletRequest request, HttpServletResponse response)  {
+    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         response.setContentType("text/html");
-        try (PrintWriter out = response.getWriter()) {
-            out.println("<h1>" + message + "</h1>");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        PrintWriter out = response.getWriter();
+        out.println("<h1>" + message + "</h1>");
     }
 
 }
