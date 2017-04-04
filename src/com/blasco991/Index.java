@@ -15,7 +15,7 @@ import java.util.Map;
  * Created by blasco991 on 04/04/17.
  */
 
-@WebServlet("/NextPrimes")
+@WebServlet("/")
 public class Index extends HttpServlet {
 
     @Override
