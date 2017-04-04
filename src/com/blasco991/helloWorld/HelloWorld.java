@@ -1,35 +1,26 @@
 package com.blasco991.helloWorld;
 
 import java.io.*;
-import javax.servlet.*;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 
 /**
  * Created by blasco991 on 03/04/17.
  */
 
-// Extend HttpServlet class
+@WebServlet("/HelloWorld")
 public class HelloWorld extends HttpServlet {
 
-    private String message;
+    private static final String message = "Hello World";
 
-    public void init() throws ServletException {
-        // Do required initialization
-        message = "Hello World";
-    }
-
-    public void doGet(HttpServletRequest request,
-                      HttpServletResponse response)
-            throws ServletException, IOException {
-        // Set response content type
+    @Override
+    public void doGet(HttpServletRequest request, HttpServletResponse response)  {
         response.setContentType("text/html");
-
-        // Actual logic goes here.
-        PrintWriter out = response.getWriter();
-        out.println("<h1>" + message + "</h1>");
+        try (PrintWriter out = response.getWriter()) {
+            out.println("<h1>" + message + "</h1>");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
-    public void destroy() {
-        // do nothing.
-    }
 }
