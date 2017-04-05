@@ -1,5 +1,4 @@
 .idea/kotlinc.xml
-.idea/libraries/
 .idea/vcs.xml/
-articfacts/
-/lib/
+out/
+target/

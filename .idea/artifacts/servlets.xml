@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
-  <artifact type="war" name="servlets">
-    <output-path>$PROJECT_DIR$/out/artifacts/servlets</output-path>
+  <artifact type="war" build-on-make="true" name="servlets">
+    <output-path>$PROJECT_DIR$/out/</output-path>
     <root id="archive" name="servlets.war">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
