@@ -6,8 +6,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.*;
-import java.util.concurrent.ThreadLocalRandom;
+import java.util.Arrays;
+import java.util.Random;
 
 /**
  * Created by blasco991 on 04/04/17.
@@ -16,6 +16,7 @@ import java.util.concurrent.ThreadLocalRandom;
 @WebServlet("/SendVotes")
 public class SendVotes extends HttpServlet {
 
+    private final Random random = new Random();
     private static final String howMany = "howmany", parties = "parties";
 
     @Override
@@ -25,14 +26,18 @@ public class SendVotes extends HttpServlet {
             int max = Integer.parseInt(req.getParameter(howMany));
             String[] votes = new String[max];
 
-            for(int i=0; i<max; i++){
-                int random = ThreadLocalRandom.current().nextInt(partiesList.length);
+            for (int i = 0; i < max; i++) {
+                int random = gaussianInt(partiesList.length / 2, max / 4, max);
                 votes[i] = partiesList[random];
             }
 
-            resp.setContentType("text/html");
+            resp.setContentType("application/json");
             resp.getWriter().print(Arrays.toString(votes));
         }
+    }
 
+    private int gaussianInt(int avg, int std, int max) {
+        int random = (int) Math.abs(this.random.nextGaussian() * std + avg);
+        return random > max ? random - (max - random) : random;
     }
 }
