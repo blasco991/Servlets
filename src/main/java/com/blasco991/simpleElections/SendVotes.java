@@ -7,6 +7,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 import java.util.Random;
 
 /**
@@ -26,8 +28,13 @@ public class SendVotes extends HttpServlet {
             int max = Integer.parseInt(req.getParameter(howMany));
             String[] votes = new String[max];
 
+            List<String> list = Arrays.asList(partiesList);
+            Collections.shuffle(list);
+            partiesList = list.toArray(partiesList);
+
+            int std = partiesList.length > 4 ? partiesList.length / 4 : partiesList.length / 2;
             for (int i = 0; i < max; i++) {
-                int random = gaussianInt(partiesList.length / 2, max / 4, max);
+                int random = gaussianInt(partiesList.length / 2, std, partiesList.length - 1);
                 votes[i] = partiesList[random];
             }
 
@@ -38,6 +45,6 @@ public class SendVotes extends HttpServlet {
 
     private int gaussianInt(int avg, int std, int max) {
         int random = (int) Math.abs(this.random.nextGaussian() * std + avg);
-        return random > max ? random - (max - random) : random;
+        return random > max ? max : random;
     }
 }
